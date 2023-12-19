@@ -1,0 +1,17 @@
+.nav-container {
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    background-color: rgb(106, 105, 105);
+}
+
+.nav-ul-div {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+
+.nav-ul-div li {
+    padding: 20px;
+    margin: 10px;
+}
