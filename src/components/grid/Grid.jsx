@@ -2,9 +2,6 @@ import './Grid.css';
 import { Cards } from '../cards/Cards';
 import casa from '../../assets/img/casa.png'
 
-
-// import {Mascotas, Seguridad, Servicios, TelefonosUtiles} from './pages';
-
 export default function Grid() {
   return (
     <div className='grid-container'>

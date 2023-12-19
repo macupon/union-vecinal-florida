@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Mascotas from './pages/mascotas/Mascotas';
 import TelefonosUtiles from './pages/telefonosUtiles/TelefonosUtiles';
 import Servicios from './pages/servicios/Servicios';
-import Seguridad from './pages/seguridad/seguridad';
+import Seguridad from './pages/seguridad/Seguridad';
 
 function App() {
   return (
@@ -18,7 +18,6 @@ function App() {
           <Route path='/seguridad' element={<Seguridad/>}/>
         </Routes>
       </Router>
-
     </>
   )
 }
