@@ -1,9 +1,11 @@
 .cover-container {
+    position: relative;
     display: flex;
     align-items: center;
     height: 280px;
     width: 100vw;
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .text-cover {
@@ -11,12 +13,29 @@
 }
 
 .titulo-cover {
-    font-size: 60px;
-    font-weight: 800;
+    width: 45vw;
+    font-size: 80px;
+    line-height: 80px;
+    font-weight: 700;
+    letter-spacing: -1.5px;
 }
 
+.titulo-cover h1 {
+    margin-bottom: 30px;
+}
+
+.txt-cover {
+    width: 600px;
+    font-size: 18px;
+    line-height: 25px;    
+}
+
+.txt-cover p {
+    margin: 0px;
+}
 
 .img-cover img {
+    margin-top: 100px;
     height: 550px;
     background-color: none;
 }

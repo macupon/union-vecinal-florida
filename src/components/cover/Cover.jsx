@@ -1,17 +1,18 @@
 import './Cover.css'
-import casa from '../../assets/img/casa.png'
 
-export const Cover = () => {
-  return (
+export const Cover = (props) => {
+const {title, title2, text, text2, img} = props;
+  
+return (
     <div className='cover-container'>
       <div className='text-cover'>
-        <h1 className='titulo-cover'>Unidos por un <br/> barrio mejor</h1>
-        <div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed sapien erat, ornare <br/> in ex quis, maximus commodo nisi. Donec ut tortor ligula. Aenean imperdiet eget<br/> leo sit amet vulputate. Donec at laoreet magna. Nunc in.</p>
+        <h1 className='titulo-cover'>{title}</h1>
+        <div className='txt-cover'>
+          <p>{text}</p>
         </div>
       </div>
       <div className='img-cover'>
-        <img src={casa} alt="" />
+        <img src={img} alt="" />
       </div>
     </div>
   )
