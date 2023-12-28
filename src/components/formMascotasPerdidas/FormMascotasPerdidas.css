@@ -8,30 +8,37 @@
     align-items: center;
     flex-wrap: wrap;
     margin-top: 50px;
-        
+    color: rgb(75, 72, 72);
     background-color: rgba(240, 159, 159, 0.406);
 }
 
 .form-perdido-div {
+    margin: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgba(170, 162, 162, 0.406);
+    background-color: rgba(255, 255, 255, 0.52);
     border-radius: 10px;
 }
 
 .input-form {
-    margin: 20px;
     display: flex;
     flex-direction: column;
     align-items: left;
     justify-content: center;
-    margin: 50px;
+    margin: 30px;
+}
+
+.input-form h3 {
+    font-size: 25px;
+    margin: 0px;
 }
 
 .input-form label {
+    font-family: 'Inter', sans-serif;
     margin: 10px;
     font-size: 20px;
+    font-weight: 400;
 }
 
 .input-form input {
@@ -40,4 +47,21 @@
     padding: 10px;
     border-radius: 10px;
     border: none;
+}
+
+.submit-div {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+.input-form button {
+    border-radius: 50px;
+    border: none;
+    background-color: rgba(189, 130, 244, 0.718);
+    height: 50px;
+    width: 180px;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    color: white;
 }

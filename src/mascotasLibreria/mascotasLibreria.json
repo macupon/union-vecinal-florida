@@ -1,0 +1,32 @@
+[
+    {
+        "nombre": "Kabi",
+        "raza": "Cruza",
+        "color": "Marron",
+        "chapa": true,
+        "dia": "10/10/2023",
+        "hora": "20:50",
+        "img": "src/assets/img/perro.png",
+        "id": 1
+    },
+    {           
+        "nombre": "Bimba",
+        "raza": "Golden",
+        "color": "Rubio",
+        "chapa": false,
+        "dia": "15/11/2023",
+        "hora": "10:50",
+        "img": "src/assets/img/perro.png",
+        "id": 2
+    },
+    {
+        "nombre": "Iris",
+        "raza": "Labrador",
+        "color": "Negro",
+        "chapa": true,
+        "dia": "20/05/2022",
+        "hora": "18:20",
+        "img": "src/assets/img/perro.png",
+        "id": 3
+    }
+]

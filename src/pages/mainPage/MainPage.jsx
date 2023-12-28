@@ -3,8 +3,8 @@ import { NavBar } from '../../components/navBar/NavBar'
 import { Cover } from '../../components/cover/Cover'
 import Footer from '../../components/footer/Footer'
 import Grid from '../../components/grid/Grid'
-
 import casa from '../../assets/img/casa.png'
+
 
 export const MainPage = () => {
 

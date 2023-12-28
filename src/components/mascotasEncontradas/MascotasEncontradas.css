@@ -1,0 +1,18 @@
+.map-mascotasEncontradas-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-showForm button{
+    margin: 50px 35px 0px 35px;
+    background-color: #8f3ae9a6;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    width: 20vw;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}

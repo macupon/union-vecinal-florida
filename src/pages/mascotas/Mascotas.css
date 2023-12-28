@@ -8,14 +8,14 @@
     overflow-x: hidden;
 }
 
-.pet-cover-container img{
+.mascota-cover-container img{
     width: auto;
     height: 300px;
     height: 360px;
     margin-bottom: 20px;
 }
 
-.btns-pet-container {
+.btns-mascota-container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -25,7 +25,7 @@
     flex-wrap: wrap;
 }
 
-.btns-pet-container button{
+.btns-mascota-container button{
     margin: 50px 35px 0px 35px;
     background-color: #e9a63aa6;
     color: rgb(255, 255, 255);
@@ -35,7 +35,7 @@
     border-radius: 50px;
     border: none;
     font-size: 20px;
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     cursor: pointer;
 }
 
